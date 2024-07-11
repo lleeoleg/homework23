@@ -4,7 +4,6 @@ task 5
 class Roman:
     def __init__(self, roman_numeral):
         self.roman_numeral = roman_numeral
-        self.value = Roman.to_integer(roman_numeral)
     @staticmethod
     def to_integer(roman):
         roman_numerals = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
